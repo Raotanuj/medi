@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:text="Take a photo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:id="@+id/takephoto"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload from gallery"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/uploadphoto"
+
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Upload files"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/uploadfiles"
+        />
+</LinearLayout>
